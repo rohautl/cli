@@ -1,14 +1,14 @@
 package main
 
 import (
-    "fmt"
-    "math/rand"
+   	"fmt"
+ 	"math/rand"
 	"time"
 )
 
 func main() {
 	s1 := rand.NewSource(time.Now().UnixNano())
-    r1 := rand.New(s1)
+   	r1 := rand.New(s1)
 
 	min := 1
 	max := 10
