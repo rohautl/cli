@@ -2,11 +2,19 @@
 
 cli.go: Source code for the "cli" application
 
-cli: The application
+cli: The application. 
+
+
 
 # Usage
 
+For convenience, I added the built application here (considering it's size).
+
 On linux/mac: ./cli
+
+If you want to build it yourself from the source code, here is the command line (tested with go v1.17.2):
+	
+	env GOOS=linux GOARCH=amd64 go build cli.go
 
 # Scenario 2 
 
