@@ -1,7 +1,8 @@
 # Files
 
-cli.go: source code for the "cli" application
-cli: cli application
+cli.go: Source code for the "cli" application
+
+cli: The application
 
 # Usage
 
